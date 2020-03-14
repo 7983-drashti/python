@@ -1,0 +1,7 @@
+name=input('enter name')
+city=input('anter city')
+f=open('datafile.txt','w')
+f.write(name)
+f.write(city)
+print('file saved')
+f.close()		

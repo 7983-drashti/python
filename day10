@@ -1,0 +1,18 @@
+class fruit:
+	name=''
+	price=0
+	color=''
+a=fruit()
+a.name='apple'
+a.price=10
+a.color='red'
+b=fruit()
+b.name='mango'
+b.price=50
+b.color='yellow'
+print(a.name)
+print(a.price)
+print(a.color)
+print(b.name)
+print(b.price)
+print(b.color)
